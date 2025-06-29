@@ -1,9 +1,14 @@
 from setuptools import setup, find_packages
 
+with open('README.md','r') as f:
+    description = f.read()
+
 setup(
     name="selenia",
-    version="0.1.0",
+    version="0.2.0",
     description="Selenium wrapper to find XPath from natural language using LLMs",
+    long_description=description,
+    long_description_content_type='text/markdown',
     author="Penielny",
     author_email="penielnyinaku@gmail.com",
     packages=find_packages(),
