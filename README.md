@@ -37,7 +37,7 @@ model_client = OllamaClient(model_name="llama3")
 selenia = Selenia(driver, model_client)
 
 # Find an element by description
-element = selenia.find("the search input box at the top")
+element = selenia.find("the search input box at the top bar")
 
 # Find all matching elements
 elements = selenia.find_all("all buttons with the text 'Submit'")
