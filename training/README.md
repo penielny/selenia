@@ -17,6 +17,8 @@ scored separately), and gives the same answer every time.
 | `candidates.js` | Runs in the browser. Lists visible elements (including open shadow DOM) and tags each with `data-selenia-id`. |
 | `features.py` | Turns an element into the text the model reads. **Training and runtime must share it.** |
 | `collect.py` | Step 1. Saves page snapshots, from URLs or from inside your own Selenium tests. |
+| `urls.txt` | Step 1. Starter list of ~140 pages from 30 sites. Add your own. |
+| `collect_flows.py` | Step 1. Snapshots pages behind demo logins and clicks. |
 | `label.py` | Step 2. Write real descriptions and pick the matching element. |
 | `make_dataset.py` | Step 3. Adds synthetic descriptions, splits train/eval by page. |
 | `train.py` | Step 4. Fine-tunes, evaluates before/after, exports int8 ONNX. |
@@ -32,11 +34,17 @@ pip install -r requirements-train.txt
 
 ### 1. Collect pages (aim for 100+ pages from at least 10 different sites/apps)
 
-Public pages or local files:
+`urls.txt` already lists about 140 pages from 30 sites (automation practice sites, single-page
+apps, and some real-world sites). Add your own apps at the bottom, then:
 
 ```bash
 python collect.py --urls urls.txt --out data/pages.jsonl
+python collect_flows.py --out data/pages.jsonl     # pages behind demo logins and clicks
 ```
+
+Re-running is safe: URLs already in `pages.jsonl` are skipped. `collect_flows.py` logs into
+SauceDemo, OrangeHRM and other demo apps with their published credentials and snapshots the screens
+inside. Copy one of its flows as a template for your own app.
 
 Pages behind a login, or deep inside a single-page app: call `snapshot()` from your existing tests
 at each screen you care about. This is where the most valuable data comes from.
@@ -66,9 +74,17 @@ Vary the phrasing: synonyms, product names next to repeated buttons, positions, 
 python make_dataset.py --pages data/pages.jsonl --labels data/labels.jsonl --out data/
 ```
 
-About 20% of pages are held out. Evaluation uses only your manual labels on those pages, so the score
-reflects pages the model never saw. Make sure some held-out pages have labels, or the script warns
-that eval falls back to synthetic queries (optimistic).
+About 20% of **sites** are held out, so the score reflects websites the model never saw (pages from
+one site share layouts, so holding out single pages would overstate accuracy). It prints which sites
+are held out and writes their page ids to `data/eval_pages.txt`. Evaluation uses only your manual
+labels on those pages, so label them:
+
+```bash
+python label.py --pages-list data/eval_pages.txt
+```
+
+Choose the held-out sites yourself with `--eval-sites demoqa.com saucedemo.com`, or use
+`--split-by page` if you only have one or two sites.
 
 ### 4. Train (Colab T4 recommended; CPU works but is slow)
 

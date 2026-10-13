@@ -39,14 +39,33 @@ def wait_until_settled(driver, timeout=15, quiet_ms=800):
         time.sleep(0.1)
 
 
+def existing_ids(out_path):
+    if not os.path.exists(out_path):
+        return set()
+    with open(out_path, encoding="utf-8") as f:
+        return {json.loads(l)["page_id"] for l in f if l.strip()}
+
+
+def url_page_id(url):
+    """Stable id for a URL, so re-running the collector recognises pages it already has."""
+    return hashlib.sha1(url.strip().encode()).hexdigest()[:12]
+
+
 def snapshot(driver, out_path, page_id=None, screenshot=True, settle=True):
-    """Extract candidates from the current page and append them to out_path. Returns the record."""
+    """Extract candidates from the current page and append them to out_path. Returns the record.
+
+    Re-using a page_id that is already in out_path gets a suffix (-2, -3, ...) instead of a clash.
+    """
     if settle:
         wait_until_settled(driver)
     cands = driver.execute_script(CANDIDATES_JS)
     url = driver.current_url
     if page_id is None:
-        page_id = hashlib.sha1(f"{url}|{len(cands)}|{time.time()}".encode()).hexdigest()[:12]
+        page_id = url_page_id(url)
+    taken = existing_ids(out_path)
+    base, n = page_id, 2
+    while page_id in taken:
+        page_id, n = f"{base}-{n}", n + 1
     rec = {"page_id": page_id, "url": url, "title": driver.title, "candidates": cands}
     os.makedirs(os.path.dirname(os.path.abspath(out_path)), exist_ok=True)
     with open(out_path, "a", encoding="utf-8") as f:
@@ -81,12 +100,16 @@ def main():
 
     with open(args.urls, encoding="utf-8") as f:
         urls = [u.strip() for u in f if u.strip() and not u.startswith("#")]
+    done = existing_ids(args.out)
+    todo = [u for u in urls if url_page_id(u) not in done]
+    if len(todo) < len(urls):
+        print(f"skipping {len(urls) - len(todo)} URLs already in {args.out}")
     driver = make_driver(headless=not args.no_headless, chrome_binary=args.chrome_binary)
     try:
-        for url in urls:
+        for url in todo:
             try:
                 driver.get(url)
-                rec = snapshot(driver, args.out)
+                rec = snapshot(driver, args.out, page_id=url_page_id(url))
                 print(f"{rec['page_id']}  {len(rec['candidates']):5d} elements  {url}")
             except Exception as e:  # keep going; one broken page shouldn't stop the crawl
                 print(f"FAILED {url}: {e}")
