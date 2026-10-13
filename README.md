@@ -42,6 +42,9 @@ selenia.find("the login button").click()
 buttons = selenia.find_all("add to cart button")
 ```
 
+More runnable scripts, including a full checkout flow, error handling and a pytest suite, are in
+[examples/](examples/README.md).
+
 ## 🧩 The model
 The first time you create a `Selenia`, it downloads the model (about 24 MB) into `~/.cache/selenia`
 and verifies its checksum. After that it runs offline.
