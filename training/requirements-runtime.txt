@@ -1,0 +1,4 @@
+# What Selenia needs at runtime to use the trained model. No PyTorch.
+onnxruntime>=1.29
+tokenizers>=0.23
+numpy>=2

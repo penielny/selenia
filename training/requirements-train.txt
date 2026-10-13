@@ -1,0 +1,14 @@
+# For collecting data and training (laptop or Colab). Versions are the ones this kit was tested with.
+sentence-transformers>=6.1,<7
+transformers>=5.19,<6
+torch>=2.14
+datasets>=5.1
+accelerate>=1.15
+onnx>=1.23
+onnxscript>=0.7
+onnxruntime>=1.29
+rapidfuzz>=3.14
+selenium>=4.51
+tokenizers>=0.23
+numpy>=2
+# Do NOT add `optimum`: its ONNX exporter currently needs Transformers 4 and will downgrade it.
