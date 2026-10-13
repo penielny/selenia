@@ -28,28 +28,28 @@ https://the-internet.herokuapp.com/floating_menu
 https://the-internet.herokuapp.com/upload
 
 # --- UI Test Automation Playground: tricky elements (dynamic ids, overlaps, delays)
-https://uitestingplayground.com/
-https://uitestingplayground.com/dynamicid
-https://uitestingplayground.com/classattr
-https://uitestingplayground.com/hiddenlayers
-https://uitestingplayground.com/click
-https://uitestingplayground.com/textinput
-https://uitestingplayground.com/scrollbars
-https://uitestingplayground.com/dynamictable
-https://uitestingplayground.com/verifytext
-https://uitestingplayground.com/progressbar
-https://uitestingplayground.com/visibility
-https://uitestingplayground.com/sampleapp
-https://uitestingplayground.com/mouseover
-https://uitestingplayground.com/nbsp
-https://uitestingplayground.com/overlapped
-https://uitestingplayground.com/shadowdom
-https://uitestingplayground.com/alerts
-https://uitestingplayground.com/disabledinput
-https://uitestingplayground.com/autowait
-https://uitestingplayground.com/clearinput
-https://uitestingplayground.com/cssselectors
-https://uitestingplayground.com/select
+http://uitestingplayground.com/
+http://uitestingplayground.com/dynamicid
+http://uitestingplayground.com/classattr
+http://uitestingplayground.com/hiddenlayers
+http://uitestingplayground.com/click
+http://uitestingplayground.com/textinput
+http://uitestingplayground.com/scrollbars
+http://uitestingplayground.com/dynamictable
+http://uitestingplayground.com/verifytext
+http://uitestingplayground.com/progressbar
+http://uitestingplayground.com/visibility
+http://uitestingplayground.com/sampleapp
+http://uitestingplayground.com/mouseover
+http://uitestingplayground.com/nbsp
+http://uitestingplayground.com/overlapped
+http://uitestingplayground.com/shadowdom
+http://uitestingplayground.com/alerts
+http://uitestingplayground.com/disabledinput
+http://uitestingplayground.com/autowait
+http://uitestingplayground.com/clearinput
+http://uitestingplayground.com/cssselectors
+http://uitestingplayground.com/select
 
 # --- Selenium WebDriver practice pages (Boni García) and selenium.dev
 https://bonigarcia.dev/selenium-webdriver-java/
@@ -116,8 +116,6 @@ https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 https://automationintesting.online/
 https://parabank.parasoft.com/parabank/index.htm
 https://parabank.parasoft.com/parabank/register.htm
-https://computer-database.gatling.io/computers
-https://computer-database.gatling.io/computers/new
 
 # --- TodoMVC: the same app built in different SPA frameworks
 https://todomvc.com/examples/react/dist/
@@ -143,7 +141,6 @@ https://www.scrapethissite.com/pages/ajax-javascript/
 # --- Real-world sites (variety: docs, news, stores, dashboards-like layouts)
 https://www.python.org/
 https://pypi.org/project/selenium/
-https://www.npmjs.com/package/react
 https://github.com/penielny/selenia
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
 https://docs.python.org/3/library/json.html
@@ -159,5 +156,9 @@ https://getbootstrap.com/docs/5.3/examples/sign-in/
 https://getbootstrap.com/docs/5.3/examples/pricing/
 https://getbootstrap.com/docs/5.3/examples/album/
 
+
+
+https://open.spotify.com/
+https://audiomack.com/
 # --- Your own apps: these are the most valuable pages. Uncomment and add your own.
 # https://makolagh.store/

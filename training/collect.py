@@ -51,6 +51,24 @@ def url_page_id(url):
     return hashlib.sha1(url.strip().encode()).hexdigest()[:12]
 
 
+# Titles of pages that load "successfully" but are not the page we asked for.
+BLOCKED_TITLES = {
+    "Privacy error": "certificate error",
+    "Just a moment...": "Cloudflare bot check",
+    "Attention Required! | Cloudflare": "Cloudflare bot check",
+    "Access Denied": "access denied",
+}
+
+
+def blocked_reason(driver):
+    """Why the current page is a browser error or bot wall rather than real content, or None."""
+    if driver.current_url.startswith("chrome-error://"):
+        return "browser error page"
+    if not driver.execute_script("return document.body ? document.body.children.length : 0"):
+        return "blank page"
+    return BLOCKED_TITLES.get(driver.title.strip())
+
+
 def snapshot(driver, out_path, page_id=None, screenshot=True, settle=True):
     """Extract candidates from the current page and append them to out_path. Returns the record.
 
@@ -85,6 +103,8 @@ def make_driver(headless=True, chrome_binary=None):
     opts.add_argument("--no-sandbox")
     opts.add_argument("--disable-dev-shm-usage")
     opts.add_argument("--window-size=1366,900")
+    # Chrome silently upgrades http:// to https://; on a site with a bad certificate that leaves a blank page.
+    opts.add_argument("--disable-features=HttpsUpgrades,HttpsFirstBalancedModeAutoEnable")
     if chrome_binary:
         opts.binary_location = chrome_binary
     return webdriver.Chrome(options=opts)
@@ -109,10 +129,16 @@ def main():
         for url in todo:
             try:
                 driver.get(url)
-                rec = snapshot(driver, args.out, page_id=url_page_id(url))
+                wait_until_settled(driver)
+                reason = blocked_reason(driver)
+                if reason:
+                    print(f"SKIPPED {url}: {reason}")
+                    continue
+                rec = snapshot(driver, args.out, page_id=url_page_id(url), settle=False)
                 print(f"{rec['page_id']}  {len(rec['candidates']):5d} elements  {url}")
             except Exception as e:  # keep going; one broken page shouldn't stop the crawl
-                print(f"FAILED {url}: {e}")
+                msg = str(e).strip().splitlines()[0] if str(e).strip() else type(e).__name__
+                print(f"FAILED {url}: {msg}")
     finally:
         driver.quit()
 

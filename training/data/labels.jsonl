@@ -1,0 +1,493 @@
+{"page_id": "697cdf4b1594", "query": "text input field", "gold": 2, "source": "manual", "author": "claude"}
+{"page_id": "697cdf4b1594", "query": "the password box", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "697cdf4b1594", "query": "textarea", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "697cdf4b1594", "query": "the disabled input", "gold": 8, "source": "manual", "author": "claude"}
+{"page_id": "697cdf4b1594", "query": "read-only input field", "gold": 10, "source": "manual", "author": "claude"}
+{"page_id": "697cdf4b1594", "query": "return to index link", "gold": 11, "source": "manual", "author": "claude"}
+{"page_id": "697cdf4b1594", "query": "dropdown select menu", "gold": 13, "source": "manual", "author": "claude"}
+{"page_id": "697cdf4b1594", "query": "datalist box where you type to search", "gold": 15, "source": "manual", "author": "claude"}
+{"page_id": "697cdf4b1594", "query": "choose a file to upload", "gold": 17, "source": "manual", "author": "claude"}
+{"page_id": "697cdf4b1594", "query": "the checkbox that is already checked", "gold": 19, "source": "manual", "author": "claude"}
+{"page_id": "697cdf4b1594", "query": "default checkbox", "gold": 21, "source": "manual", "author": "claude"}
+{"page_id": "697cdf4b1594", "query": "checked radio button", "gold": 23, "source": "manual", "author": "claude"}
+{"page_id": "697cdf4b1594", "query": "the default radio", "gold": 25, "source": "manual", "author": "claude"}
+{"page_id": "697cdf4b1594", "query": "submit the form", "gold": 26, "source": "manual", "author": "claude"}
+{"page_id": "697cdf4b1594", "query": "color picker", "gold": 28, "source": "manual", "author": "claude"}
+{"page_id": "697cdf4b1594", "query": "date picker field", "gold": 30, "source": "manual", "author": "claude"}
+{"page_id": "697cdf4b1594", "query": "the range slider", "gold": 32, "source": "manual", "author": "claude"}
+{"page_id": "697cdf4b1594", "query": "page title that says Web form", "gold": 0, "source": "manual", "author": "claude"}
+{"page_id": "01b278fef01a", "query": "login button in the header", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "01b278fef01a", "query": "sign up button at the top right", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "01b278fef01a", "query": "country autocomplete box", "gold": 13, "source": "manual", "author": "claude"}
+{"page_id": "01b278fef01a", "query": "the dropdown example select", "gold": 14, "source": "manual", "author": "claude"}
+{"page_id": "01b278fef01a", "query": "first checkbox option", "gold": 16, "source": "manual", "author": "claude"}
+{"page_id": "01b278fef01a", "query": "option2 checkbox", "gold": 18, "source": "manual", "author": "claude"}
+{"page_id": "01b278fef01a", "query": "tick the third checkbox", "gold": 20, "source": "manual", "author": "claude"}
+{"page_id": "01b278fef01a", "query": "Radio2 radio button", "gold": 10, "source": "manual", "author": "claude"}
+{"page_id": "01b278fef01a", "query": "enter your name field in the alert section", "gold": 23, "source": "manual", "author": "claude"}
+{"page_id": "01b278fef01a", "query": "Alert button", "gold": 24, "source": "manual", "author": "claude"}
+{"page_id": "01b278fef01a", "query": "the confirm button", "gold": 25, "source": "manual", "author": "claude"}
+{"page_id": "01b278fef01a", "query": "show button", "gold": 27, "source": "manual", "author": "claude"}
+{"page_id": "01b278fef01a", "query": "hide/show example text box", "gold": 28, "source": "manual", "author": "claude"}
+{"page_id": "01b278fef01a", "query": "mouse hover button", "gold": 29, "source": "manual", "author": "claude"}
+{"page_id": "01b278fef01a", "query": "broken link at the bottom", "gold": 38, "source": "manual", "author": "claude"}
+{"page_id": "01b278fef01a", "query": "facebook link", "gold": 50, "source": "manual", "author": "claude"}
+{"page_id": "01b278fef01a", "query": "youtube under social media", "gold": 53, "source": "manual", "author": "claude"}
+{"page_id": "01b278fef01a", "query": "Practice Page heading", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "search for vegetables and fruits", "gold": 0, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "cart icon in the top right", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "add to cart button for beetroot", "gold": 30, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "add brinjal to cart", "gold": 54, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "add to cart for the mushroom", "gold": 66, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "corn add to cart button", "gold": 84, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "add apple to the cart", "gold": 96, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "the ADD TO CART under grapes", "gold": 108, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "strawberry add to cart", "gold": 150, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "add almonds to my cart", "gold": 162, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "cashews add to cart button", "gold": 180, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "plus button to increase the carrot quantity", "gold": 35, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "increase potato quantity", "gold": 71, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "the + next to pomegranate", "gold": 137, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "increment strawberry", "gold": 149, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "plus sign for cashews", "gold": 179, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "minus button for beetroot", "gold": 27, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "decrease the brinjal quantity", "gold": 51, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "capsicum minus", "gold": 57, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "reduce corn quantity", "gold": 81, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "the minus on nuts mixture", "gold": 171, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "carrot image", "gold": 31, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "picture of the onion", "gold": 85, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "banana product photo", "gold": 97, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "pumpkin product name", "gold": 74, "source": "manual", "author": "claude"}
+{"page_id": "5195c713bde7", "query": "price of the carrot", "gold": 198, "source": "manual", "author": "claude"}
+{"page_id": "2fc01130308e", "query": "username field", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "2fc01130308e", "query": "where I type my password", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "2fc01130308e", "query": "the role dropdown that says Student", "gold": 9, "source": "manual", "author": "claude"}
+{"page_id": "2fc01130308e", "query": "agree to the terms checkbox", "gold": 11, "source": "manual", "author": "claude"}
+{"page_id": "2fc01130308e", "query": "terms and conditions link", "gold": 12, "source": "manual", "author": "claude"}
+{"page_id": "2fc01130308e", "query": "sign in button", "gold": 13, "source": "manual", "author": "claude"}
+{"page_id": "2fc01130308e", "query": "Admin option", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "2fc01130308e", "query": "the User radio choice", "gold": 8, "source": "manual", "author": "claude"}
+{"page_id": "69d2372e12b9", "query": "new todo input", "gold": 2, "source": "manual", "author": "claude"}
+{"page_id": "69d2372e12b9", "query": "the what needs to be done box", "gold": 2, "source": "manual", "author": "claude"}
+{"page_id": "69d2372e12b9", "query": "link to the real TodoMVC app", "gold": 0, "source": "manual", "author": "claude"}
+{"page_id": "69d2372e12b9", "query": "Remo H. Jansen link", "gold": 3, "source": "manual", "author": "claude"}
+{"page_id": "69d2372e12b9", "query": "TodoMVC link in the footer", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "69d2372e12b9", "query": "todos heading", "gold": 1, "source": "manual", "author": "claude"}
+{"page_id": "69d2372e12b9", "query": "hint about double-clicking to edit a todo", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "login link in the top right", "gold": 2, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "next page", "gold": 43, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "Top Ten tags heading", "gold": 44, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "Zyte link in the footer", "gold": 56, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "the change tag", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "deep-thoughts tag", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "tag called thinking", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "abilities tag", "gold": 9, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "classic tag", "gold": 20, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "be-yourself", "gold": 23, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "success tag", "gold": 27, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "the failure tag", "gold": 34, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "paraphrased", "gold": 36, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "misattributed eleanor roosevelt tag", "gold": 38, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "tag that says obvious", "gold": 41, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "reading in the top ten tags", "gold": 50, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "friendship tag on the right", "gold": 51, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "truth tag", "gold": 53, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "the Einstein quote about the world as we have created it", "gold": 57, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "quote that starts imperfection is beauty", "gold": 64, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "Eleanor Roosevelt author name", "gold": 73, "source": "manual", "author": "claude"}
+{"page_id": "caf2b786f9c5", "query": "a day without sunshine quote", "gold": 74, "source": "manual", "author": "claude"}
+{"page_id": "17bb1a28ce7c", "query": "log in link", "gold": 2, "source": "manual", "author": "claude"}
+{"page_id": "17bb1a28ce7c", "query": "go to the next page", "gold": 33, "source": "manual", "author": "claude"}
+{"page_id": "17bb1a28ce7c", "query": "GoodReads.com link", "gold": 34, "source": "manual", "author": "claude"}
+{"page_id": "17bb1a28ce7c", "query": "Zyte in the footer", "gold": 35, "source": "manual", "author": "claude"}
+{"page_id": "17bb1a28ce7c", "query": "world tag", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "17bb1a28ce7c", "query": "choices tag", "gold": 8, "source": "manual", "author": "claude"}
+{"page_id": "17bb1a28ce7c", "query": "the miracle tag", "gold": 12, "source": "manual", "author": "claude"}
+{"page_id": "17bb1a28ce7c", "query": "miracles tag", "gold": 13, "source": "manual", "author": "claude"}
+{"page_id": "17bb1a28ce7c", "query": "aliteracy", "gold": 14, "source": "manual", "author": "claude"}
+{"page_id": "17bb1a28ce7c", "query": "adulthood tag", "gold": 20, "source": "manual", "author": "claude"}
+{"page_id": "17bb1a28ce7c", "query": "edison tag", "gold": 25, "source": "manual", "author": "claude"}
+{"page_id": "17bb1a28ce7c", "query": "simile", "gold": 32, "source": "manual", "author": "claude"}
+{"page_id": "17bb1a28ce7c", "query": "quote beginning the person, be it gentleman or lady", "gold": 41, "source": "manual", "author": "claude"}
+{"page_id": "17bb1a28ce7c", "query": "André Gide", "gold": 48, "source": "manual", "author": "claude"}
+{"page_id": "17bb1a28ce7c", "query": "the I have not failed quote", "gold": 49, "source": "manual", "author": "claude"}
+{"page_id": "0e238b600db2", "query": "username input", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "0e238b600db2", "query": "password field", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "0e238b600db2", "query": "the login submit button in the form", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "0e238b600db2", "query": "goodreads link", "gold": 8, "source": "manual", "author": "claude"}
+{"page_id": "0e238b600db2", "query": "Quotes to Scrape link at the top left", "gold": 1, "source": "manual", "author": "claude"}
+{"page_id": "cab6a7811a35", "query": "author dropdown", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "cab6a7811a35", "query": "pick a tag dropdown", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "cab6a7811a35", "query": "search button", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "cab6a7811a35", "query": "login link", "gold": 2, "source": "manual", "author": "claude"}
+{"page_id": "cab6a7811a35", "query": "Zyte link", "gold": 9, "source": "manual", "author": "claude"}
+{"page_id": "01f7ac0c9255", "query": "accept additional cookies", "gold": 2, "source": "manual", "author": "claude"}
+{"page_id": "01f7ac0c9255", "query": "reject the cookies button", "gold": 3, "source": "manual", "author": "claude"}
+{"page_id": "01f7ac0c9255", "query": "menu button", "gold": 9, "source": "manual", "author": "claude"}
+{"page_id": "01f7ac0c9255", "query": "search box on the homepage", "gold": 14, "source": "manual", "author": "claude"}
+{"page_id": "01f7ac0c9255", "query": "search button in the navigation menu", "gold": 10, "source": "manual", "author": "claude"}
+{"page_id": "01f7ac0c9255", "query": "Popular on GOV.UK heading", "gold": 16, "source": "manual", "author": "claude"}
+{"page_id": "01f7ac0c9255", "query": "tax your vehicle link", "gold": 85, "source": "manual", "author": "claude"}
+{"page_id": "01f7ac0c9255", "query": "apply for a passport", "gold": 92, "source": "manual", "author": "claude"}
+{"page_id": "01f7ac0c9255", "query": "yes this page is useful", "gold": 94, "source": "manual", "author": "claude"}
+{"page_id": "01f7ac0c9255", "query": "button saying the page is not useful", "gold": 95, "source": "manual", "author": "claude"}
+{"page_id": "01f7ac0c9255", "query": "report a problem with this page", "gold": 96, "source": "manual", "author": "claude"}
+{"page_id": "01f7ac0c9255", "query": "births, death, marriages and care in the footer", "gold": 100, "source": "manual", "author": "claude"}
+{"page_id": "01f7ac0c9255", "query": "get involved link", "gold": 123, "source": "manual", "author": "claude"}
+{"page_id": "01f7ac0c9255", "query": "cookies link in the footer", "gold": 127, "source": "manual", "author": "claude"}
+{"page_id": "01f7ac0c9255", "query": "Welsh services link", "gold": 131, "source": "manual", "author": "claude"}
+{"page_id": "01f7ac0c9255", "query": "cookie banner heading", "gold": 1, "source": "manual", "author": "claude"}
+{"page_id": "b7746215bf45", "query": "search for artists, songs, albums", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "b7746215bf45", "query": "upload link in the header", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "b7746215bf45", "query": "Feed in the nav", "gold": 13, "source": "manual", "author": "claude"}
+{"page_id": "b7746215bf45", "query": "Afrosounds genre button", "gold": 30, "source": "manual", "author": "claude"}
+{"page_id": "b7746215bf45", "query": "jazz/blues", "gold": 33, "source": "manual", "author": "claude"}
+{"page_id": "b7746215bf45", "query": "the caribbean genre", "gold": 34, "source": "manual", "author": "claude"}
+{"page_id": "b7746215bf45", "query": "pop button", "gold": 35, "source": "manual", "author": "claude"}
+{"page_id": "b7746215bf45", "query": "R&B genre filter", "gold": 36, "source": "manual", "author": "claude"}
+{"page_id": "b7746215bf45", "query": "punjabi", "gold": 40, "source": "manual", "author": "claude"}
+{"page_id": "b7746215bf45", "query": "country genre button", "gold": 41, "source": "manual", "author": "claude"}
+{"page_id": "b7746215bf45", "query": "podcast button", "gold": 43, "source": "manual", "author": "claude"}
+{"page_id": "b7746215bf45", "query": "trending albums heading", "gold": 78, "source": "manual", "author": "claude"}
+{"page_id": "b7746215bf45", "query": "recently added section title", "gold": 142, "source": "manual", "author": "claude"}
+{"page_id": "b7746215bf45", "query": "visit audiomack world", "gold": 177, "source": "manual", "author": "claude"}
+{"page_id": "b7746215bf45", "query": "follow us on facebook", "gold": 190, "source": "manual", "author": "claude"}
+{"page_id": "b7746215bf45", "query": "twitch link in the footer", "gold": 194, "source": "manual", "author": "claude"}
+{"page_id": "b7746215bf45", "query": "your privacy rights button", "gold": 207, "source": "manual", "author": "claude"}
+{"page_id": "b7746215bf45", "query": "main headline about the music platform empowering artists", "gold": 26, "source": "manual", "author": "claude"}
+{"page_id": "b7746215bf45", "query": "audiomack logo", "gold": 1, "source": "manual", "author": "claude"}
+{"page_id": "b7746215bf45", "query": "Audiomack R&B avatar", "gold": 125, "source": "manual", "author": "claude"}
+{"page_id": "b7746215bf45", "query": "avatar for Audiomack Latin", "gold": 131, "source": "manual", "author": "claude"}
+{"page_id": "a7e7b44c3f75", "query": "challenging dom link", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "a7e7b44c3f75", "query": "drag and drop example", "gold": 12, "source": "manual", "author": "claude"}
+{"page_id": "a7e7b44c3f75", "query": "link to notification messages", "gold": 37, "source": "manual", "author": "claude"}
+{"page_id": "a7e7b44c3f75", "query": "fork me on github ribbon", "gold": 0, "source": "manual", "author": "claude"}
+{"page_id": "fa7a935e8ff8", "query": "username box", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "fa7a935e8ff8", "query": "where I type the password", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "fa7a935e8ff8", "query": "login button", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "f95bf9ccf0bc", "query": "email field", "gold": 3, "source": "manual", "author": "claude"}
+{"page_id": "f95bf9ccf0bc", "query": "retrieve password button", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "1a02b14a9693", "query": "the dropdown list", "gold": 2, "source": "manual", "author": "claude"}
+{"page_id": "07f27640e173", "query": "add element button", "gold": 2, "source": "manual", "author": "claude"}
+{"page_id": "b51f25b32a31", "query": "delete link in the Iuvaret7 row", "gold": 20, "source": "manual", "author": "claude"}
+{"page_id": "b51f25b32a31", "query": "edit for Iuvaret6", "gold": 17, "source": "manual", "author": "claude"}
+{"page_id": "b51f25b32a31", "query": "delete Iuvaret1", "gold": 8, "source": "manual", "author": "claude"}
+{"page_id": "6be17b19c13d", "query": "contact us menu link", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "6be17b19c13d", "query": "portfolio", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "6be17b19c13d", "query": "gallery tab", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "e60e011d6b68", "query": "click here link", "gold": 2, "source": "manual", "author": "claude"}
+{"page_id": "cef9494b2cc1", "query": "remove button", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "cef9494b2cc1", "query": "the enable button", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "ac17ffb3b150", "query": "avatar of user2", "gold": 3, "source": "manual", "author": "claude"}
+{"page_id": "ac17ffb3b150", "query": "user3 profile picture", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "92897e363364", "query": "JS alert button", "gold": 2, "source": "manual", "author": "claude"}
+{"page_id": "92897e363364", "query": "button that opens a JS confirm", "gold": 3, "source": "manual", "author": "claude"}
+{"page_id": "92897e363364", "query": "js prompt button", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "12e4eadc28d1", "query": "click here to load a new message", "gold": 3, "source": "manual", "author": "claude"}
+{"page_id": "12e4eadc28d1", "query": "close the notification", "gold": 0, "source": "manual", "author": "claude"}
+{"page_id": "c01bf7135854", "query": "JQuery UI Menus link", "gold": 2, "source": "manual", "author": "claude"}
+{"page_id": "0cc0771ef037", "query": "news link in the floating menu", "gold": 3, "source": "manual", "author": "claude"}
+{"page_id": "0cc0771ef037", "query": "contact", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "0cc0771ef037", "query": "about in the top menu", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "e1d448d68c05", "query": "choose file input", "gold": 2, "source": "manual", "author": "claude"}
+{"page_id": "e1d448d68c05", "query": "upload button", "gold": 3, "source": "manual", "author": "claude"}
+{"page_id": "d638fb369d4c", "query": "drag and drop link", "gold": 10, "source": "manual", "author": "claude"}
+{"page_id": "d638fb369d4c", "query": "infinite scroll", "gold": 16, "source": "manual", "author": "claude"}
+{"page_id": "d638fb369d4c", "query": "slow login page link", "gold": 31, "source": "manual", "author": "claude"}
+{"page_id": "d638fb369d4c", "query": "console logs", "gold": 28, "source": "manual", "author": "claude"}
+{"page_id": "7e35c1cd36b6", "query": "password input", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "7e35c1cd36b6", "query": "the textarea", "gold": 9, "source": "manual", "author": "claude"}
+{"page_id": "7e35c1cd36b6", "query": "select dropdown", "gold": 16, "source": "manual", "author": "claude"}
+{"page_id": "7e35c1cd36b6", "query": "file input", "gold": 20, "source": "manual", "author": "claude"}
+{"page_id": "7e35c1cd36b6", "query": "default checkbox", "gold": 24, "source": "manual", "author": "claude"}
+{"page_id": "7e35c1cd36b6", "query": "submit button", "gold": 29, "source": "manual", "author": "claude"}
+{"page_id": "10aba7fb5d37", "query": "previous page link", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "10aba7fb5d37", "query": "next", "gold": 9, "source": "manual", "author": "claude"}
+{"page_id": "10aba7fb5d37", "query": "page 2 in the pagination", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "10aba7fb5d37", "query": "back to index", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "b4b1c3aee9ca", "query": "left-click dropdown button", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "b4b1c3aee9ca", "query": "the right-click one", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "b4b1c3aee9ca", "query": "double-click dropdown", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "dd39a3b368d1", "query": "display cookies button", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "3d903c20e0da", "query": "launch alert", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "3d903c20e0da", "query": "launch confirm button", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "3d903c20e0da", "query": "button that opens a prompt", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "3d903c20e0da", "query": "open the modal", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "da769b95e89c", "query": "display local storage", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "da769b95e89c", "query": "session storage button", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "f0575b86c36b", "query": "login username field", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "f0575b86c36b", "query": "password", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "f0575b86c36b", "query": "submit button", "gold": 8, "source": "manual", "author": "claude"}
+{"page_id": "b53dcd9e08b1", "query": "last name field", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "b53dcd9e08b1", "query": "country input", "gold": 15, "source": "manual", "author": "claude"}
+{"page_id": "b53dcd9e08b1", "query": "e-mail box", "gold": 17, "source": "manual", "author": "claude"}
+{"page_id": "b53dcd9e08b1", "query": "phone number", "gold": 19, "source": "manual", "author": "claude"}
+{"page_id": "b53dcd9e08b1", "query": "job position field", "gold": 21, "source": "manual", "author": "claude"}
+{"page_id": "b53dcd9e08b1", "query": "submit", "gold": 24, "source": "manual", "author": "claude"}
+{"page_id": "d159f3b9dedb", "query": "Forms card", "gold": 3, "source": "manual", "author": "claude"}
+{"page_id": "d159f3b9dedb", "query": "book store application card", "gold": 11, "source": "manual", "author": "claude"}
+{"page_id": "7b8012c63990", "query": "full name input", "gold": 12, "source": "manual", "author": "claude"}
+{"page_id": "7b8012c63990", "query": "email field", "gold": 14, "source": "manual", "author": "claude"}
+{"page_id": "7b8012c63990", "query": "current address box", "gold": 16, "source": "manual", "author": "claude"}
+{"page_id": "7b8012c63990", "query": "submit button", "gold": 19, "source": "manual", "author": "claude"}
+{"page_id": "6b1434ddc80c", "query": "home checkbox", "gold": 13, "source": "manual", "author": "claude"}
+{"page_id": "6b1434ddc80c", "query": "radio button link in the sidebar", "gold": 3, "source": "manual", "author": "claude"}
+{"page_id": "84509b361684", "query": "the Yes radio", "gold": 11, "source": "manual", "author": "claude"}
+{"page_id": "84509b361684", "query": "impressive option", "gold": 13, "source": "manual", "author": "claude"}
+{"page_id": "9bd850a50605", "query": "add a new record button", "gold": 11, "source": "manual", "author": "claude"}
+{"page_id": "9bd850a50605", "query": "search box above the table", "gold": 12, "source": "manual", "author": "claude"}
+{"page_id": "9bd850a50605", "query": "rows per page dropdown", "gold": 19, "source": "manual", "author": "claude"}
+{"page_id": "9bd850a50605", "query": "first page button", "gold": 15, "source": "manual", "author": "claude"}
+{"page_id": "c1a4e0edf032", "query": "double click me", "gold": 11, "source": "manual", "author": "claude"}
+{"page_id": "c1a4e0edf032", "query": "right click me button", "gold": 12, "source": "manual", "author": "claude"}
+{"page_id": "3a7843c5f6e3", "query": "Created link", "gold": 15, "source": "manual", "author": "claude"}
+{"page_id": "3a7843c5f6e3", "query": "no content link", "gold": 16, "source": "manual", "author": "claude"}
+{"page_id": "3a7843c5f6e3", "query": "the Moved api link", "gold": 17, "source": "manual", "author": "claude"}
+{"page_id": "80e4064d3ed8", "query": "download button", "gold": 11, "source": "manual", "author": "claude"}
+{"page_id": "40b73e26077d", "query": "button that enables after 5 seconds", "gold": 11, "source": "manual", "author": "claude"}
+{"page_id": "40b73e26077d", "query": "color change button", "gold": 12, "source": "manual", "author": "claude"}
+{"page_id": "ea093439a408", "query": "first name", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "ea093439a408", "query": "male gender radio", "gold": 9, "source": "manual", "author": "claude"}
+{"page_id": "ea093439a408", "query": "music hobby checkbox", "gold": 27, "source": "manual", "author": "claude"}
+{"page_id": "ea093439a408", "query": "current address text area", "gold": 32, "source": "manual", "author": "claude"}
+{"page_id": "ea093439a408", "query": "submit the registration form", "gold": 37, "source": "manual", "author": "claude"}
+{"page_id": "68ed38b3e9d3", "query": "where does it come from section", "gold": 14, "source": "manual", "author": "claude"}
+{"page_id": "68ed38b3e9d3", "query": "expand why do we use it", "gold": 16, "source": "manual", "author": "claude"}
+{"page_id": "bd34892f5742", "query": "start button", "gold": 11, "source": "manual", "author": "claude"}
+{"page_id": "3a7105a11ed3", "query": "origin tab", "gold": 15, "source": "manual", "author": "claude"}
+{"page_id": "3a7105a11ed3", "query": "the Use tab", "gold": 17, "source": "manual", "author": "claude"}
+{"page_id": "3a7105a11ed3", "query": "more tab", "gold": 19, "source": "manual", "author": "claude"}
+{"page_id": "6fdcc36f2c5b", "query": "hover me to see button", "gold": 11, "source": "manual", "author": "claude"}
+{"page_id": "6fdcc36f2c5b", "query": "text field with the tooltip", "gold": 12, "source": "manual", "author": "claude"}
+{"page_id": "6fdcc36f2c5b", "query": "Contrary link", "gold": 13, "source": "manual", "author": "claude"}
+{"page_id": "6fdcc36f2c5b", "query": "the 1.10.32 link", "gold": 14, "source": "manual", "author": "claude"}
+{"page_id": "f91598aaf2a7", "query": "main item 2", "gold": 12, "source": "manual", "author": "claude"}
+{"page_id": "f91598aaf2a7", "query": "third main menu item", "gold": 13, "source": "manual", "author": "claude"}
+{"page_id": "7237a1eb26a1", "query": "cars multi select", "gold": 18, "source": "manual", "author": "claude"}
+{"page_id": "d47e85577654", "query": "book search box", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "d47e85577654", "query": "Speaking JavaScript book", "gold": 15, "source": "manual", "author": "claude"}
+{"page_id": "d47e85577654", "query": "Understanding ECMAScript 6 link", "gold": 23, "source": "manual", "author": "claude"}
+{"page_id": "d47e85577654", "query": "previous button", "gold": 24, "source": "manual", "author": "claude"}
+{"page_id": "facdd124c8a9", "query": "username", "gold": 9, "source": "manual", "author": "claude"}
+{"page_id": "facdd124c8a9", "query": "password box", "gold": 11, "source": "manual", "author": "claude"}
+{"page_id": "facdd124c8a9", "query": "new user button", "gold": 13, "source": "manual", "author": "claude"}
+{"page_id": "1f57a5b721d9", "query": "subscription email field", "gold": 273, "source": "manual", "author": "claude"}
+{"page_id": "936fe995aae7", "query": "search product box", "gold": 11, "source": "manual", "author": "claude"}
+{"page_id": "936fe995aae7", "query": "newsletter email at the bottom", "gold": 251, "source": "manual", "author": "claude"}
+{"page_id": "b3b46a24254b", "query": "quantity", "gold": 31, "source": "manual", "author": "claude"}
+{"page_id": "b3b46a24254b", "query": "add to cart button", "gold": 32, "source": "manual", "author": "claude"}
+{"page_id": "b3b46a24254b", "query": "your name in the review form", "gold": 34, "source": "manual", "author": "claude"}
+{"page_id": "b3b46a24254b", "query": "write a review box", "gold": 36, "source": "manual", "author": "claude"}
+{"page_id": "b3b46a24254b", "query": "products link in the header", "gold": 3, "source": "manual", "author": "claude"}
+{"page_id": "5e833ded9320", "query": "quantity field", "gold": 35, "source": "manual", "author": "claude"}
+{"page_id": "5e833ded9320", "query": "add the men tshirt to cart", "gold": 36, "source": "manual", "author": "claude"}
+{"page_id": "5e833ded9320", "query": "review text area", "gold": 40, "source": "manual", "author": "claude"}
+{"page_id": "daf602292a40", "query": "cart link in the header", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "daf602292a40", "query": "signup / login", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "daf602292a40", "query": "subscribe email input", "gold": 14, "source": "manual", "author": "claude"}
+{"page_id": "62c28a933768", "query": "password", "gold": 12, "source": "manual", "author": "claude"}
+{"page_id": "62c28a933768", "query": "name field in the signup form", "gold": 16, "source": "manual", "author": "claude"}
+{"page_id": "62c28a933768", "query": "signup button", "gold": 18, "source": "manual", "author": "claude"}
+{"page_id": "62c28a933768", "query": "video tutorials", "gold": 8, "source": "manual", "author": "claude"}
+{"page_id": "73f4969e8789", "query": "email", "gold": 14, "source": "manual", "author": "claude"}
+{"page_id": "73f4969e8789", "query": "subject field", "gold": 15, "source": "manual", "author": "claude"}
+{"page_id": "73f4969e8789", "query": "message box", "gold": 16, "source": "manual", "author": "claude"}
+{"page_id": "73f4969e8789", "query": "attach a file", "gold": 17, "source": "manual", "author": "claude"}
+{"page_id": "73f4969e8789", "query": "submit button", "gold": 18, "source": "manual", "author": "claude"}
+{"page_id": "5f38a23ee336", "query": "home link in the header", "gold": 2, "source": "manual", "author": "claude"}
+{"page_id": "3ac22e968b13", "query": "API testing link", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "3ac22e968b13", "query": "test cases in the top nav", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "ba257979e9fb", "query": "username field", "gold": 14, "source": "manual", "author": "claude"}
+{"page_id": "ba257979e9fb", "query": "password", "gold": 16, "source": "manual", "author": "claude"}
+{"page_id": "ba257979e9fb", "query": "submit button", "gold": 17, "source": "manual", "author": "claude"}
+{"page_id": "ba257979e9fb", "query": "practice nav link", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "24e5388814f3", "query": "edit button", "gold": 17, "source": "manual", "author": "claude"}
+{"page_id": "24e5388814f3", "query": "add row button", "gold": 18, "source": "manual", "author": "claude"}
+{"page_id": "24e5388814f3", "query": "home in the menu", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "e18396321945", "query": "username", "gold": 1, "source": "manual", "author": "claude"}
+{"page_id": "e18396321945", "query": "password field", "gold": 2, "source": "manual", "author": "claude"}
+{"page_id": "e18396321945", "query": "login button", "gold": 3, "source": "manual", "author": "claude"}
+{"page_id": "a1a71dc3cd96", "query": "username input", "gold": 3, "source": "manual", "author": "claude"}
+{"page_id": "a1a71dc3cd96", "query": "password field", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "a1a71dc3cd96", "query": "login button", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "38462e4168da", "query": "check availability", "gold": 14, "source": "manual", "author": "claude"}
+{"page_id": "38462e4168da", "query": "name field in the contact form", "gold": 44, "source": "manual", "author": "claude"}
+{"page_id": "38462e4168da", "query": "contact message text area", "gold": 52, "source": "manual", "author": "claude"}
+{"page_id": "d65ce9f7013b", "query": "username", "gold": 10, "source": "manual", "author": "claude"}
+{"page_id": "d65ce9f7013b", "query": "password", "gold": 11, "source": "manual", "author": "claude"}
+{"page_id": "d65ce9f7013b", "query": "log in button", "gold": 12, "source": "manual", "author": "claude"}
+{"page_id": "d65ce9f7013b", "query": "about link", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "a1df456e77f0", "query": "last name field", "gold": 17, "source": "manual", "author": "claude"}
+{"page_id": "a1df456e77f0", "query": "zip code", "gold": 21, "source": "manual", "author": "claude"}
+{"page_id": "a3c3cf755768", "query": "new todo input", "gold": 17, "source": "manual", "author": "claude"}
+{"page_id": "a3c3cf755768", "query": "quick start link", "gold": 8, "source": "manual", "author": "claude"}
+{"page_id": "a3c3cf755768", "query": "API reference", "gold": 9, "source": "manual", "author": "claude"}
+{"page_id": "f3f73c34a881", "query": "what needs to be done input", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "501b347068c8", "query": "add a todo box", "gold": 8, "source": "manual", "author": "claude"}
+{"page_id": "501b347068c8", "query": "docs link", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "c8b289d9eeae", "query": "todo text box", "gold": 8, "source": "manual", "author": "claude"}
+{"page_id": "c8b289d9eeae", "query": "getting started link", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "ac4376010ca3", "query": "new todo field", "gold": 9, "source": "manual", "author": "claude"}
+{"page_id": "ac4376010ca3", "query": "tutorial link", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "ea91d11894e6", "query": "type a new todo", "gold": 12, "source": "manual", "author": "claude"}
+{"page_id": "ea91d11894e6", "query": "the lit team link", "gold": 8, "source": "manual", "author": "claude"}
+{"page_id": "3060d727707e", "query": "contemporary category", "gold": 39, "source": "manual", "author": "claude"}
+{"page_id": "3060d727707e", "query": "add a comment category in the sidebar", "gold": 19, "source": "manual", "author": "claude"}
+{"page_id": "b828157e0e87", "query": "poetry breadcrumb", "gold": 3, "source": "manual", "author": "claude"}
+{"page_id": "b828157e0e87", "query": "books to scrape logo link", "gold": 0, "source": "manual", "author": "claude"}
+{"page_id": "b828157e0e87", "query": "product description heading", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "70274d3d610b", "query": "science category in the sidebar", "gold": 24, "source": "manual", "author": "claude"}
+{"page_id": "70274d3d610b", "query": "cultural", "gold": 51, "source": "manual", "author": "claude"}
+{"page_id": "70274d3d610b", "query": "See America book cover", "gold": 67, "source": "manual", "author": "claude"}
+{"page_id": "ba31edc8561b", "query": "FAQ", "gold": 3, "source": "manual", "author": "claude"}
+{"page_id": "ba31edc8561b", "query": "lessons in the nav", "gold": 2, "source": "manual", "author": "claude"}
+{"page_id": "ba31edc8561b", "query": "turtles all the way down frames link", "gold": 13, "source": "manual", "author": "claude"}
+{"page_id": "883ac77a6e83", "query": "search for teams box", "gold": 9, "source": "manual", "author": "claude"}
+{"page_id": "883ac77a6e83", "query": "search button", "gold": 10, "source": "manual", "author": "claude"}
+{"page_id": "54c5ddb8773c", "query": "2015", "gold": 9, "source": "manual", "author": "claude"}
+{"page_id": "54c5ddb8773c", "query": "the 2014 year link", "gold": 10, "source": "manual", "author": "claude"}
+{"page_id": "54c5ddb8773c", "query": "login", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "1ab11d99cba1", "query": "site search box", "gold": 11, "source": "manual", "author": "claude"}
+{"page_id": "1ab11d99cba1", "query": "GO button", "gold": 12, "source": "manual", "author": "claude"}
+{"page_id": "1ab11d99cba1", "query": "docs.python.org link", "gold": 36, "source": "manual", "author": "claude"}
+{"page_id": "95b4357a12c1", "query": "search pypi box", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "95b4357a12c1", "query": "search button", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "95b4357a12c1", "query": "translate pypi link", "gold": 107, "source": "manual", "author": "claude"}
+{"page_id": "6c6d593fe413", "query": "platform menu button", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "6c6d593fe413", "query": "go to file", "gold": 40, "source": "manual", "author": "claude"}
+{"page_id": "6c6d593fe413", "query": "commit fcd5df9", "gold": 54, "source": "manual", "author": "claude"}
+{"page_id": "6c6d593fe413", "query": "outline button", "gold": 82, "source": "manual", "author": "claude"}
+{"page_id": "6f573e4ea841", "query": "filter sidebar input", "gold": 2462, "source": "manual", "author": "claude"}
+{"page_id": "df487f4a7a2c", "query": "quick search box", "gold": 14, "source": "manual", "author": "claude"}
+{"page_id": "89877d0444d1", "query": "search wikipedia", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "89877d0444d1", "query": "toggle the history subsection", "gold": 18, "source": "manual", "author": "claude"}
+{"page_id": "89877d0444d1", "query": "Louis Armstrong link", "gold": 145, "source": "manual", "author": "claude"}
+{"page_id": "89877d0444d1", "query": "Sonny Sharrock", "gold": 185, "source": "manual", "author": "claude"}
+{"page_id": "288f991a9ebe", "query": "log in link", "gold": 10, "source": "manual", "author": "claude"}
+{"page_id": "288f991a9ebe", "query": "about wikipedia in the footer", "gold": 32, "source": "manual", "author": "claude"}
+{"page_id": "f1f3bd09de65", "query": "search box at the bottom", "gold": 229, "source": "manual", "author": "claude"}
+{"page_id": "f1f3bd09de65", "query": "94 comments link", "gold": 79, "source": "manual", "author": "claude"}
+{"page_id": "f1f3bd09de65", "query": "the Apple's Minions story", "gold": 25, "source": "manual", "author": "claude"}
+{"page_id": "f1f3bd09de65", "query": "bloomberg.com", "gold": 61, "source": "manual", "author": "claude"}
+{"page_id": "2b552f29abb3", "query": "skip to content", "gold": 0, "source": "manual", "author": "claude"}
+{"page_id": "2b552f29abb3", "query": "BBC tiktok button", "gold": 653, "source": "manual", "author": "claude"}
+{"page_id": "2b552f29abb3", "query": "follow BBC on linkedin", "gold": 655, "source": "manual", "author": "claude"}
+{"page_id": "17411343203a", "query": "tutorials menu button", "gold": 1, "source": "manual", "author": "claude"}
+{"page_id": "17411343203a", "query": "first name input", "gold": 184, "source": "manual", "author": "claude"}
+{"page_id": "17411343203a", "query": "I have a car checkbox", "gold": 202, "source": "manual", "author": "claude"}
+{"page_id": "afcd7b07299d", "query": "toggle theme", "gold": 0, "source": "manual", "author": "claude"}
+{"page_id": "afcd7b07299d", "query": "email field", "gold": 18, "source": "manual", "author": "claude"}
+{"page_id": "afcd7b07299d", "query": "country dropdown", "gold": 24, "source": "manual", "author": "claude"}
+{"page_id": "afcd7b07299d", "query": "save this information checkbox", "gold": 31, "source": "manual", "author": "claude"}
+{"page_id": "afcd7b07299d", "query": "paypal radio", "gold": 38, "source": "manual", "author": "claude"}
+{"page_id": "afcd7b07299d", "query": "card expiration", "gold": 45, "source": "manual", "author": "claude"}
+{"page_id": "afcd7b07299d", "query": "privacy link", "gold": 49, "source": "manual", "author": "claude"}
+{"page_id": "def7f99a938f", "query": "share button", "gold": 17, "source": "manual", "author": "claude"}
+{"page_id": "def7f99a938f", "query": "export", "gold": 18, "source": "manual", "author": "claude"}
+{"page_id": "def7f99a938f", "query": "this week dropdown button", "gold": 19, "source": "manual", "author": "claude"}
+{"page_id": "def7f99a938f", "query": "current month report", "gold": 10, "source": "manual", "author": "claude"}
+{"page_id": "def7f99a938f", "query": "last quarter", "gold": 11, "source": "manual", "author": "claude"}
+{"page_id": "def7f99a938f", "query": "orders in the sidebar", "gold": 3, "source": "manual", "author": "claude"}
+{"page_id": "9dcdaa087d27", "query": "email address", "gold": 3, "source": "manual", "author": "claude"}
+{"page_id": "9dcdaa087d27", "query": "password input", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "9dcdaa087d27", "query": "remember me checkbox", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "9dcdaa087d27", "query": "sign in button", "gold": 9, "source": "manual", "author": "claude"}
+{"page_id": "0a5b31bcffc7", "query": "sign up for free", "gold": 10, "source": "manual", "author": "claude"}
+{"page_id": "0a5b31bcffc7", "query": "get started button on the $15 plan", "gold": 13, "source": "manual", "author": "claude"}
+{"page_id": "0a5b31bcffc7", "query": "contact us button", "gold": 16, "source": "manual", "author": "claude"}
+{"page_id": "0a5b31bcffc7", "query": "support link", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "30801594a50c", "query": "secondary action", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "30801594a50c", "query": "back to top", "gold": 33, "source": "manual", "author": "claude"}
+{"page_id": "30801594a50c", "query": "visit the homepage", "gold": 34, "source": "manual", "author": "claude"}
+{"page_id": "8e18ff825838", "query": "search what do you want to play", "gold": 10, "source": "manual", "author": "claude"}
+{"page_id": "8e18ff825838", "query": "disable repeat", "gold": 52, "source": "manual", "author": "claude"}
+{"page_id": "8e18ff825838", "query": "kaestrings link", "gold": 109, "source": "manual", "author": "claude"}
+{"page_id": "0dcb7e281f7f", "query": "Inflectra Corporation link", "gold": 68, "source": "manual", "author": "claude"}
+{"page_id": "63e0572890a5", "query": "button with dynamic id", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "c00596cefb2d", "query": "the button in the playground", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "1179411aa9ab", "query": "button that ignores dom click event", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "28f219d3cff7", "query": "new button name input", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "28f219d3cff7", "query": "button that should change its name", "gold": 8, "source": "manual", "author": "claude"}
+{"page_id": "a55a52372dc5", "query": "hiding button", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "1760129a322e", "query": "start", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "1760129a322e", "query": "stop button", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "651da26c8deb", "query": "zero width button", "gold": 8, "source": "manual", "author": "claude"}
+{"page_id": "651da26c8deb", "query": "overlapped", "gold": 9, "source": "manual", "author": "claude"}
+{"page_id": "651da26c8deb", "query": "visibility hidden button", "gold": 11, "source": "manual", "author": "claude"}
+{"page_id": "ebdd7decd9ce", "query": "user name", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "ebdd7decd9ce", "query": "password field", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "ebdd7decd9ce", "query": "log in button", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "7eec91b4f076", "query": "link button", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "d3ca69c15c3a", "query": "my button", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "2d8656603437", "query": "id field", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "2d8656603437", "query": "name input", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "2d8656603437", "query": "subject", "gold": 8, "source": "manual", "author": "claude"}
+{"page_id": "241379987161", "query": "alert button", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "241379987161", "query": "confirm", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "241379987161", "query": "prompt button", "gold": 8, "source": "manual", "author": "claude"}
+{"page_id": "c5bea7d58bc5", "query": "change me input", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "c5bea7d58bc5", "query": "enable edit field button", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "9a1f3b8b62b4", "query": "element type dropdown", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "9a1f3b8b62b4", "query": "non zero size checkbox", "gold": 16, "source": "manual", "author": "claude"}
+{"page_id": "8fe51327ea2d", "query": "textarea", "gold": 9, "source": "manual", "author": "claude"}
+{"page_id": "8fe51327ea2d", "query": "password input", "gold": 11, "source": "manual", "author": "claude"}
+{"page_id": "8fe51327ea2d", "query": "email input", "gold": 13, "source": "manual", "author": "claude"}
+{"page_id": "8fe51327ea2d", "query": "number field", "gold": 15, "source": "manual", "author": "claude"}
+{"page_id": "8fe51327ea2d", "query": "search type input", "gold": 17, "source": "manual", "author": "claude"}
+{"page_id": "8fe51327ea2d", "query": "url input", "gold": 19, "source": "manual", "author": "claude"}
+{"page_id": "8fe51327ea2d", "query": "telephone input", "gold": 21, "source": "manual", "author": "claude"}
+{"page_id": "5ea7ff6b1815", "query": "email", "gold": 14, "source": "manual", "author": "claude"}
+{"page_id": "5ea7ff6b1815", "query": "level 1 button", "gold": 46, "source": "manual", "author": "claude"}
+{"page_id": "5ea7ff6b1815", "query": "level 1 input", "gold": 47, "source": "manual", "author": "claude"}
+{"page_id": "5ea7ff6b1815", "query": "level 3 button", "gold": 52, "source": "manual", "author": "claude"}
+{"page_id": "5ea7ff6b1815", "query": "input at level 3", "gold": 53, "source": "manual", "author": "claude"}
+{"page_id": "ded41216b9ff", "query": "fruits multi-select", "gold": 15, "source": "manual", "author": "claude"}
+{"page_id": "ded41216b9ff", "query": "colors select", "gold": 13, "source": "manual", "author": "claude"}
+{"page_id": "saucedemo-inventory", "query": "product sort dropdown", "gold": 3, "source": "manual", "author": "claude"}
+{"page_id": "saucedemo-inventory", "query": "add the onesie to cart", "gold": 21, "source": "manual", "author": "claude"}
+{"page_id": "saucedemo-inventory", "query": "view details for the onesie", "gold": 19, "source": "manual", "author": "claude"}
+{"page_id": "saucedemo-inventory", "query": "facebook", "gold": 26, "source": "manual", "author": "claude"}
+{"page_id": "saucedemo-inventory", "query": "linkedin link in the footer", "gold": 27, "source": "manual", "author": "claude"}
+{"page_id": "saucedemo-product", "query": "back to products", "gold": 3, "source": "manual", "author": "claude"}
+{"page_id": "saucedemo-product", "query": "remove button", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "saucedemo-cart", "query": "remove the backpack", "gold": 5, "source": "manual", "author": "claude"}
+{"page_id": "saucedemo-cart", "query": "checkout", "gold": 8, "source": "manual", "author": "claude"}
+{"page_id": "saucedemo-cart", "query": "continue shopping", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "saucedemo-checkout-info", "query": "checkout button", "gold": 8, "source": "manual", "author": "claude"}
+{"page_id": "saucedemo-menu-open", "query": "continue shopping button", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "orangehrm-dashboard", "query": "sidebar search", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "orangehrm-dashboard", "query": "PIM", "gold": 8, "source": "manual", "author": "claude"}
+{"page_id": "orangehrm-dashboard", "query": "my info menu item", "gold": 16, "source": "manual", "author": "claude"}
+{"page_id": "orangehrm-employees", "query": "maintenance", "gold": 24, "source": "manual", "author": "claude"}
+{"page_id": "orangehrm-add-employee", "query": "first name", "gold": 45, "source": "manual", "author": "claude"}
+{"page_id": "orangehrm-add-employee", "query": "middle name field", "gold": 46, "source": "manual", "author": "claude"}
+{"page_id": "orangehrm-add-employee", "query": "cancel button", "gold": 53, "source": "manual", "author": "claude"}
+{"page_id": "orangehrm-system-users", "query": "OrangeHRM, Inc link", "gold": 117, "source": "manual", "author": "claude"}
+{"page_id": "orangehrm-leave-list", "query": "performance in the side menu", "gold": 18, "source": "manual", "author": "claude"}
+{"page_id": "orangehrm-timesheets", "query": "employee name hints input", "gold": 41, "source": "manual", "author": "claude"}
+{"page_id": "orangehrm-timesheets", "query": "PIM link", "gold": 8, "source": "manual", "author": "claude"}
+{"page_id": "orangehrm-candidates", "query": "add candidate button", "gold": 63, "source": "manual", "author": "claude"}
+{"page_id": "orangehrm-candidates", "query": "keywords box", "gold": 53, "source": "manual", "author": "claude"}
+{"page_id": "orangehrm-candidates", "query": "from date", "gold": 55, "source": "manual", "author": "claude"}
+{"page_id": "orangehrm-directory", "query": "help button", "gold": 36, "source": "manual", "author": "claude"}
+{"page_id": "orangehrm-directory", "query": "time", "gold": 12, "source": "manual", "author": "claude"}
+{"page_id": "internet-secure-area", "query": "logout", "gold": 4, "source": "manual", "author": "claude"}
+{"page_id": "internet-secure-area", "query": "close the flash message", "gold": 0, "source": "manual", "author": "claude"}
+{"page_id": "playground-sampleapp-logged-in", "query": "log out button", "gold": 7, "source": "manual", "author": "claude"}
+{"page_id": "playground-ajax-loaded", "query": "button triggering the ajax request", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "practicetest-logged-in", "query": "log out", "gold": 13, "source": "manual", "author": "claude"}
+{"page_id": "practicetest-logged-in", "query": "blog", "gold": 9, "source": "manual", "author": "claude"}
+{"page_id": "demoqa-accordion", "query": "where does it come from", "gold": 14, "source": "manual", "author": "claude"}
+{"page_id": "demoqa-datepicker-open", "query": "previous month", "gold": 14, "source": "manual", "author": "claude"}
+{"page_id": "demoqa-datepicker-open", "query": "next month arrow", "gold": 15, "source": "manual", "author": "claude"}
+{"page_id": "demoqa-datepicker-open", "query": "month dropdown", "gold": 17, "source": "manual", "author": "claude"}
+{"page_id": "demoqa-datepicker-open", "query": "year dropdown", "gold": 18, "source": "manual", "author": "claude"}
+{"page_id": "todomvc-react-with-items", "query": "clear completed", "gold": 33, "source": "manual", "author": "claude"}
+{"page_id": "todomvc-react-with-items", "query": "new todo box", "gold": 17, "source": "manual", "author": "claude"}
+{"page_id": "todomvc-vue-with-items", "query": "active filter", "gold": 11, "source": "manual", "author": "claude"}
+{"page_id": "todomvc-vue-with-items", "query": "completed filter", "gold": 12, "source": "manual", "author": "claude"}
+{"page_id": "todomvc-vue-with-items", "query": "clear completed button", "gold": 13, "source": "manual", "author": "claude"}
+{"page_id": "todomvc-vue-with-items", "query": "the buy milk todo", "gold": 6, "source": "manual", "author": "claude"}
+{"page_id": "todomvc-svelte-with-items", "query": "clear completed", "gold": 17, "source": "manual", "author": "claude"}
+{"page_id": "todomvc-svelte-with-items", "query": "book studio session item", "gold": 12, "source": "manual", "author": "claude"}

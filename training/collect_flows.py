@@ -72,12 +72,12 @@ def flow_the_internet(d, snap):
 
 
 def flow_playground(d, snap):
-    d.get("https://uitestingplayground.com/sampleapp")
+    d.get("http://uitestingplayground.com/sampleapp")
     d.find_element(By.NAME, "UserName").send_keys("tester")
     d.find_element(By.NAME, "Password").send_keys("pwd")
     d.find_element(By.ID, "login").click()
     snap("playground-sampleapp-logged-in")
-    d.get("https://uitestingplayground.com/ajax")
+    d.get("http://uitestingplayground.com/ajax")
     d.find_element(By.ID, "ajaxButton").click()
     WebDriverWait(d, 25).until(EC.presence_of_element_located((By.CSS_SELECTOR, "#content p")))
     snap("playground-ajax-loaded")
