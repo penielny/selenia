@@ -5,7 +5,7 @@ with open('README.md','r') as f:
 
 setup(
     name="selenia",
-    version="0.2.5",
+    version="0.3.0",
     description="Selenium wrapper that finds elements from natural language using a small local model",
     long_description=description,
     long_description_content_type='text/markdown',
