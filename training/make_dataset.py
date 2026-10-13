@@ -6,7 +6,9 @@ Writes data/train_queries.jsonl and data/eval_queries.jsonl, each line:
     {"page_id", "query", "gold", "source": "manual" | "synthetic"}
 
 How it works:
-  * Pages are split into train/eval BY PAGE, so the score you see is on pages the model never saw.
+  * Data is split into train/eval BY SITE (default) so the score reflects websites the model never
+    saw, which is what real use looks like. Pages from one site share layouts, so splitting by page
+    would overstate accuracy. Use --split-by page when you only have one or two sites.
   * Synthetic queries are generated from element attributes ("the Sign in button in the login form").
     They are cheap but easy, so they mostly teach the model the format.
   * Manual labels (from label.py) are the real signal. Eval uses ONLY manual labels when you have
@@ -18,6 +20,7 @@ import json
 import os
 import random
 from collections import Counter
+from urllib.parse import urlparse
 
 from features import cue, noun, position
 
@@ -48,9 +51,12 @@ def load_jsonl(path):
         return [json.loads(l) for l in f if l.strip()]
 
 
-def is_eval_page(page_id, eval_frac):
-    h = int(hashlib.md5(page_id.encode()).hexdigest(), 16) % 1000
-    return h < eval_frac * 1000
+def split_key(page, split_by):
+    if split_by == "site":
+        host = urlparse(page.get("url", "")).netloc.lower()
+        if host:
+            return host[4:] if host.startswith("www.") else host
+    return page["page_id"]  # page split, or local files with no host
 
 
 def vary(text, rng):
@@ -97,7 +103,9 @@ def main():
     ap.add_argument("--pages", default="data/pages.jsonl")
     ap.add_argument("--labels", default="data/labels.jsonl")
     ap.add_argument("--out", default="data/")
-    ap.add_argument("--eval-frac", type=float, default=0.2, help="share of pages held out for evaluation")
+    ap.add_argument("--eval-frac", type=float, default=0.2, help="share of sites (or pages) held out for evaluation")
+    ap.add_argument("--split-by", choices=["site", "page"], default="site")
+    ap.add_argument("--eval-sites", nargs="*", help="hold out exactly these hosts, e.g. demoqa.com saucedemo.com")
     ap.add_argument("--synthetic-per-page", type=int, default=40)
     ap.add_argument("--seed", type=int, default=13)
     args = ap.parse_args()
@@ -109,16 +117,28 @@ def main():
     if len(pages) < 5:
         print(f"WARNING: only {len(pages)} pages. Aim for 100+ pages from varied sites before trusting results.")
 
+    keys = sorted({split_key(p, args.split_by) for p in pages},
+                  key=lambda k: hashlib.md5(k.encode()).hexdigest())
+    if args.eval_sites:
+        eval_keys = {s[4:] if s.startswith("www.") else s for s in args.eval_sites}
+    else:  # a fixed, repeatable share of keys, at least one
+        eval_keys = set(keys[: max(1, round(args.eval_frac * len(keys)))]) if len(keys) > 1 else set()
+
     train, evals = [], []
+    held_out_pages = []
     for page in pages:
-        held_out = is_eval_page(page["page_id"], args.eval_frac)
+        held_out = split_key(page, args.split_by) in eval_keys
+        if held_out:
+            held_out_pages.append(page["page_id"])
         synth = synth_for_page(page, rng, args.synthetic_per_page)
         man = [l for l in manual if l["page_id"] == page["page_id"]]
         (evals if held_out else train).extend(man + synth)
 
+    print(f"held out ({args.split_by}): {', '.join(sorted(eval_keys)) or 'none'}")
     if not any(e["source"] == "manual" for e in evals):
-        print("WARNING: no manual labels on eval pages, so eval uses synthetic queries and will look "
-              "better than real use. Label some held-out pages with label.py.")
+        print("WARNING: no manual labels on held-out pages, so eval uses synthetic queries and will look "
+              "better than real use. Label some of them, e.g.:  python label.py --page " +
+              (held_out_pages[0] if held_out_pages else "<page_id>"))
     else:
         evals = [e for e in evals if e["source"] == "manual"]
 
@@ -129,7 +149,9 @@ def main():
                 f.write(json.dumps(r, ensure_ascii=False) + "\n")
     src = Counter(r["source"] for r in train)
     print(f"train: {len(train)} queries ({dict(src)})  eval: {len(evals)} queries  "
-          f"pages: {len(pages)} ({sum(is_eval_page(p, args.eval_frac) for p in page_ids)} held out)")
+          f"pages: {len(pages)} ({len(held_out_pages)} held out)")
+    with open(os.path.join(args.out, "eval_pages.txt"), "w", encoding="utf-8") as f:
+        f.write("\n".join(held_out_pages) + "\n")
 
 
 if __name__ == "__main__":

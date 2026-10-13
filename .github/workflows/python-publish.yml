@@ -17,6 +17,8 @@ permissions:
 
 jobs:
   release-build:
+    # Releases tagged model-* only carry model files for download; they are not package releases.
+    if: ${{ !startsWith(github.event.release.tag_name, 'model-') }}
     runs-on: ubuntu-latest
 
     steps:

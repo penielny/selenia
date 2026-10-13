@@ -1,4 +1,4 @@
 from .main import Selenia
-from .ollama_model_client import OllamaServerClient, OllamaClient
+from .local_ranker import LocalRanker
 
-__all__ = ["Selenia","OllamaServerClient","OllamaClient"]
+__all__ = ["Selenia","LocalRanker"]

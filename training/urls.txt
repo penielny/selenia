@@ -1,0 +1,164 @@
+# Pages to snapshot with:  python collect.py --urls urls.txt --out data/pages.jsonl
+# Lines starting with # are skipped. For pages behind a login or a click, run collect_flows.py too.
+#
+# Mostly sites built for automation practice (safe to crawl, varied UI), plus some real-world
+# sites so the model doesn't only learn "demo site" layouts. Keep crawling light on real sites.
+
+# --- The Internet (Heroku): classic widgets, tables, shadow DOM, dynamic content
+https://the-internet.herokuapp.com/
+https://the-internet.herokuapp.com/login
+https://the-internet.herokuapp.com/forgot_password
+https://the-internet.herokuapp.com/checkboxes
+https://the-internet.herokuapp.com/dropdown
+https://the-internet.herokuapp.com/inputs
+https://the-internet.herokuapp.com/add_remove_elements/
+https://the-internet.herokuapp.com/challenging_dom
+https://the-internet.herokuapp.com/disappearing_elements
+https://the-internet.herokuapp.com/dynamic_content
+https://the-internet.herokuapp.com/dynamic_controls
+https://the-internet.herokuapp.com/hovers
+https://the-internet.herokuapp.com/tables
+https://the-internet.herokuapp.com/shadowdom
+https://the-internet.herokuapp.com/javascript_alerts
+https://the-internet.herokuapp.com/notification_message
+https://the-internet.herokuapp.com/horizontal_slider
+https://the-internet.herokuapp.com/key_presses
+https://the-internet.herokuapp.com/jqueryui/menu
+https://the-internet.herokuapp.com/floating_menu
+https://the-internet.herokuapp.com/upload
+
+# --- UI Test Automation Playground: tricky elements (dynamic ids, overlaps, delays)
+http://uitestingplayground.com/
+http://uitestingplayground.com/dynamicid
+http://uitestingplayground.com/classattr
+http://uitestingplayground.com/hiddenlayers
+http://uitestingplayground.com/click
+http://uitestingplayground.com/textinput
+http://uitestingplayground.com/scrollbars
+http://uitestingplayground.com/dynamictable
+http://uitestingplayground.com/verifytext
+http://uitestingplayground.com/progressbar
+http://uitestingplayground.com/visibility
+http://uitestingplayground.com/sampleapp
+http://uitestingplayground.com/mouseover
+http://uitestingplayground.com/nbsp
+http://uitestingplayground.com/overlapped
+http://uitestingplayground.com/shadowdom
+http://uitestingplayground.com/alerts
+http://uitestingplayground.com/disabledinput
+http://uitestingplayground.com/autowait
+http://uitestingplayground.com/clearinput
+http://uitestingplayground.com/cssselectors
+http://uitestingplayground.com/select
+
+# --- Selenium WebDriver practice pages (Boni García) and selenium.dev
+https://bonigarcia.dev/selenium-webdriver-java/
+https://bonigarcia.dev/selenium-webdriver-java/web-form.html
+https://bonigarcia.dev/selenium-webdriver-java/navigation1.html
+https://bonigarcia.dev/selenium-webdriver-java/dropdown-menu.html
+https://bonigarcia.dev/selenium-webdriver-java/mouse-over.html
+https://bonigarcia.dev/selenium-webdriver-java/loading-images.html
+https://bonigarcia.dev/selenium-webdriver-java/slow-calculator.html
+https://bonigarcia.dev/selenium-webdriver-java/long-page.html
+https://bonigarcia.dev/selenium-webdriver-java/shadow-dom.html
+https://bonigarcia.dev/selenium-webdriver-java/cookies.html
+https://bonigarcia.dev/selenium-webdriver-java/dialog-boxes.html
+https://bonigarcia.dev/selenium-webdriver-java/web-storage.html
+https://bonigarcia.dev/selenium-webdriver-java/multilanguage.html
+https://bonigarcia.dev/selenium-webdriver-java/login-form.html
+https://bonigarcia.dev/selenium-webdriver-java/random-calculator.html
+https://bonigarcia.dev/selenium-webdriver-java/data-types.html
+https://www.selenium.dev/selenium/web/web-form.html
+
+# --- DemoQA: React single-page app (forms, tables, widgets)
+https://demoqa.com/
+https://demoqa.com/text-box
+https://demoqa.com/checkbox
+https://demoqa.com/radio-button
+https://demoqa.com/webtables
+https://demoqa.com/buttons
+https://demoqa.com/links
+https://demoqa.com/upload-download
+https://demoqa.com/dynamic-properties
+https://demoqa.com/automation-practice-form
+https://demoqa.com/alerts
+https://demoqa.com/accordian
+https://demoqa.com/auto-complete
+https://demoqa.com/date-picker
+https://demoqa.com/slider
+https://demoqa.com/progress-bar
+https://demoqa.com/tabs
+https://demoqa.com/tool-tips
+https://demoqa.com/menu
+https://demoqa.com/select-menu
+https://demoqa.com/books
+https://demoqa.com/login
+
+# --- Automation Exercise: full practice e-commerce site
+https://www.automationexercise.com/
+https://www.automationexercise.com/products
+https://www.automationexercise.com/product_details/1
+https://www.automationexercise.com/product_details/2
+https://www.automationexercise.com/view_cart
+https://www.automationexercise.com/login
+https://www.automationexercise.com/contact_us
+https://www.automationexercise.com/test_cases
+https://www.automationexercise.com/api_list
+
+# --- More practice apps
+https://rahulshettyacademy.com/AutomationPractice/
+https://rahulshettyacademy.com/seleniumPractise/
+https://rahulshettyacademy.com/loginpagePractise/
+https://practicetestautomation.com/practice-test-login/
+https://practicetestautomation.com/practice-test-exceptions/
+https://www.saucedemo.com/
+https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+https://automationintesting.online/
+https://parabank.parasoft.com/parabank/index.htm
+https://parabank.parasoft.com/parabank/register.htm
+
+# --- TodoMVC: the same app built in different SPA frameworks
+https://todomvc.com/examples/react/dist/
+https://todomvc.com/examples/vue/dist/
+https://todomvc.com/examples/angular/dist/browser/
+https://todomvc.com/examples/svelte/dist/
+https://todomvc.com/examples/preact/dist/
+https://todomvc.com/examples/lit/dist/
+https://demo.playwright.dev/todomvc/
+
+# --- Scraping sandboxes: listings, pagination, JS-rendered content
+https://books.toscrape.com/
+https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+https://books.toscrape.com/catalogue/category/books/travel_2/index.html
+https://quotes.toscrape.com/
+https://quotes.toscrape.com/js/
+https://quotes.toscrape.com/login
+https://quotes.toscrape.com/search.aspx
+https://www.scrapethissite.com/pages/
+https://www.scrapethissite.com/pages/forms/
+https://www.scrapethissite.com/pages/ajax-javascript/
+
+# --- Real-world sites (variety: docs, news, stores, dashboards-like layouts)
+https://www.python.org/
+https://pypi.org/project/selenium/
+https://github.com/penielny/selenia
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+https://docs.python.org/3/library/json.html
+https://en.wikipedia.org/wiki/Highlife
+https://en.wikipedia.org/wiki/Special:Search
+https://news.ycombinator.com/
+https://www.bbc.com/news
+https://www.gov.uk/
+https://www.w3schools.com/html/html_forms.asp
+https://getbootstrap.com/docs/5.3/examples/checkout/
+https://getbootstrap.com/docs/5.3/examples/dashboard/
+https://getbootstrap.com/docs/5.3/examples/sign-in/
+https://getbootstrap.com/docs/5.3/examples/pricing/
+https://getbootstrap.com/docs/5.3/examples/album/
+
+
+
+https://open.spotify.com/
+https://audiomack.com/
+# --- Your own apps: these are the most valuable pages. Uncomment and add your own.
+# https://makolagh.store/

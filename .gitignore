@@ -66,3 +66,10 @@ env/
 # System files
 Thumbs.db
 Desktop.ini
+.claude/
+# Training outputs: models are published as release assets, the rest is regenerated
+training/models/
+training/data/screenshots/
+training/data/train_queries.jsonl
+training/data/eval_queries.jsonl
+training/data/eval_pages.txt

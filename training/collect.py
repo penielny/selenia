@@ -39,14 +39,51 @@ def wait_until_settled(driver, timeout=15, quiet_ms=800):
         time.sleep(0.1)
 
 
+def existing_ids(out_path):
+    if not os.path.exists(out_path):
+        return set()
+    with open(out_path, encoding="utf-8") as f:
+        return {json.loads(l)["page_id"] for l in f if l.strip()}
+
+
+def url_page_id(url):
+    """Stable id for a URL, so re-running the collector recognises pages it already has."""
+    return hashlib.sha1(url.strip().encode()).hexdigest()[:12]
+
+
+# Titles of pages that load "successfully" but are not the page we asked for.
+BLOCKED_TITLES = {
+    "Privacy error": "certificate error",
+    "Just a moment...": "Cloudflare bot check",
+    "Attention Required! | Cloudflare": "Cloudflare bot check",
+    "Access Denied": "access denied",
+}
+
+
+def blocked_reason(driver):
+    """Why the current page is a browser error or bot wall rather than real content, or None."""
+    if driver.current_url.startswith("chrome-error://"):
+        return "browser error page"
+    if not driver.execute_script("return document.body ? document.body.children.length : 0"):
+        return "blank page"
+    return BLOCKED_TITLES.get(driver.title.strip())
+
+
 def snapshot(driver, out_path, page_id=None, screenshot=True, settle=True):
-    """Extract candidates from the current page and append them to out_path. Returns the record."""
+    """Extract candidates from the current page and append them to out_path. Returns the record.
+
+    Re-using a page_id that is already in out_path gets a suffix (-2, -3, ...) instead of a clash.
+    """
     if settle:
         wait_until_settled(driver)
     cands = driver.execute_script(CANDIDATES_JS)
     url = driver.current_url
     if page_id is None:
-        page_id = hashlib.sha1(f"{url}|{len(cands)}|{time.time()}".encode()).hexdigest()[:12]
+        page_id = url_page_id(url)
+    taken = existing_ids(out_path)
+    base, n = page_id, 2
+    while page_id in taken:
+        page_id, n = f"{base}-{n}", n + 1
     rec = {"page_id": page_id, "url": url, "title": driver.title, "candidates": cands}
     os.makedirs(os.path.dirname(os.path.abspath(out_path)), exist_ok=True)
     with open(out_path, "a", encoding="utf-8") as f:
@@ -66,6 +103,8 @@ def make_driver(headless=True, chrome_binary=None):
     opts.add_argument("--no-sandbox")
     opts.add_argument("--disable-dev-shm-usage")
     opts.add_argument("--window-size=1366,900")
+    # Chrome silently upgrades http:// to https://; on a site with a bad certificate that leaves a blank page.
+    opts.add_argument("--disable-features=HttpsUpgrades,HttpsFirstBalancedModeAutoEnable")
     if chrome_binary:
         opts.binary_location = chrome_binary
     return webdriver.Chrome(options=opts)
@@ -81,15 +120,25 @@ def main():
 
     with open(args.urls, encoding="utf-8") as f:
         urls = [u.strip() for u in f if u.strip() and not u.startswith("#")]
+    done = existing_ids(args.out)
+    todo = [u for u in urls if url_page_id(u) not in done]
+    if len(todo) < len(urls):
+        print(f"skipping {len(urls) - len(todo)} URLs already in {args.out}")
     driver = make_driver(headless=not args.no_headless, chrome_binary=args.chrome_binary)
     try:
-        for url in urls:
+        for url in todo:
             try:
                 driver.get(url)
-                rec = snapshot(driver, args.out)
+                wait_until_settled(driver)
+                reason = blocked_reason(driver)
+                if reason:
+                    print(f"SKIPPED {url}: {reason}")
+                    continue
+                rec = snapshot(driver, args.out, page_id=url_page_id(url), settle=False)
                 print(f"{rec['page_id']}  {len(rec['candidates']):5d} elements  {url}")
             except Exception as e:  # keep going; one broken page shouldn't stop the crawl
-                print(f"FAILED {url}: {e}")
+                msg = str(e).strip().splitlines()[0] if str(e).strip() else type(e).__name__
+                print(f"FAILED {url}: {msg}")
     finally:
         driver.quit()
 
