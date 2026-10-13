@@ -5,8 +5,9 @@ name = "pypi"
 
 [packages]
 selenium = "*"
-requests = "*"
-ollama = "*"
+onnxruntime = "*"
+tokenizers = "*"
+numpy = "*"
 
 [dev-packages]
 

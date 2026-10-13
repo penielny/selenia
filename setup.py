@@ -5,8 +5,8 @@ with open('README.md','r') as f:
 
 setup(
     name="selenia",
-    version="0.2.0",
-    description="Selenium wrapper to find XPath from natural language using LLMs",
+    version="0.2.5",
+    description="Selenium wrapper that finds elements from natural language using a small local model",
     long_description=description,
     long_description_content_type='text/markdown',
     author="Penielny",
@@ -14,9 +14,11 @@ setup(
     packages=find_packages(),
     install_requires=[
         "selenium",
-        "requests",
-        "ollama",
+        "onnxruntime",
+        "tokenizers",
+        "numpy",
     ],
+    package_data={"selenia": ["candidates.js"]},
     python_requires=">=3.7",
     classifiers=[
         "Programming Language :: Python :: 3",
