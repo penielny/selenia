@@ -73,3 +73,6 @@ training/data/screenshots/
 training/data/train_queries.jsonl
 training/data/eval_queries.jsonl
 training/data/eval_pages.txt
+
+# Local tool that regenerates docs/demo.gif (not published)
+docs/make_demo_gif.py
