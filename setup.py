@@ -15,7 +15,7 @@ description = re.sub(r'\]\((?!https?:|#)([^)]+)\)', rf']({REPO}/blob/main/\1)', 
 
 setup(
     name="selenia",
-    version="0.3.0",
+    version="0.3.1",
     description="Find Selenium elements with plain English, using a 24 MB local model. No LLM, no API key.",
     long_description=description,
     long_description_content_type='text/markdown',
