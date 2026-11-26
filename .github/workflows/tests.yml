@@ -1,0 +1,39 @@
+name: Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.12", "3.13"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install . pytest
+
+      # Downloads the published model (checksum-verified) so the end-to-end tests run too.
+      - name: Fetch model
+        run: |
+          dir=$(python -c "from selenia.model_store import ensure_model; from selenia.local_ranker import onnx_name; print(ensure_model(onnx_name()))")
+          echo "SELENIA_MODEL_DIR=$dir" >> "$GITHUB_ENV"
+
+      # ubuntu-latest ships Chrome; Selenium Manager fetches the matching driver.
+      - name: Run tests
+        run: python -m pytest tests/ -v
