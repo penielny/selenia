@@ -1,7 +1,17 @@
+import re
+
 from setuptools import setup, find_packages
+
+REPO = "https://github.com/penielny/selenia"
 
 with open('README.md','r') as f:
     description = f.read()
+
+# The README uses repo-relative paths so it renders on every GitHub branch. PyPI can't resolve
+# those, so point them at main: images at the raw file, links at the GitHub page.
+description = re.sub(r'src="(?!https?:|#)([^"]+)"',
+                     rf'src="https://raw.githubusercontent.com/penielny/selenia/main/\1"', description)
+description = re.sub(r'\]\((?!https?:|#)([^)]+)\)', rf']({REPO}/blob/main/\1)', description)
 
 setup(
     name="selenia",
@@ -11,13 +21,13 @@ setup(
     long_description_content_type='text/markdown',
     author="Penielny",
     author_email="penielnyinaku@gmail.com",
-    url="https://github.com/penielny/selenia",
+    url=REPO,
     project_urls={
-        "Source": "https://github.com/penielny/selenia",
-        "Issues": "https://github.com/penielny/selenia/issues",
-        "Examples": "https://github.com/penielny/selenia/tree/main/examples",
-        "Training kit": "https://github.com/penielny/selenia/tree/main/training",
-        "Changelog": "https://github.com/penielny/selenia/releases",
+        "Source": REPO,
+        "Issues": f"{REPO}/issues",
+        "Examples": f"{REPO}/tree/main/examples",
+        "Training kit": f"{REPO}/tree/main/training",
+        "Changelog": f"{REPO}/releases",
     },
     license="MIT",
     keywords=[

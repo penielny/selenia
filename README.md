@@ -10,7 +10,7 @@
 that runs locally. No LLM, no API key, no per-call cost.**
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/penielny/selenia/main/docs/demo.gif"
+  <img src="docs/demo.gif"
        alt="A pytest login test using selenia.find('username field'), find('password field') and find('the login button') running against saucedemo.com and passing"
        width="100%">
 </p>
